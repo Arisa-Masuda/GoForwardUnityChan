@@ -39,9 +39,8 @@ public class CubeGenerator : MonoBehaviour
     void Update()
     {
         this.delta += Time.deltaTime;
-
         //span秒以上の時間が経過したかを調べる
-        if(this.delta > this.span) 
+        if (this.delta > this.span) 
         {
             this.delta = 0;
             //生成するキューブ数をランダムに決める
